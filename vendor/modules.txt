@@ -6,8 +6,6 @@ cloud.google.com/go/internal/optional
 cloud.google.com/go/internal/trace
 cloud.google.com/go/internal/version
 cloud.google.com/go/storage
-# github.com/Sirupsen/logrus v0.0.0-00010101000000-000000000000 => github.com/sirupsen/logrus v1.3.0
-github.com/Sirupsen/logrus
 # github.com/agext/levenshtein v1.2.2
 github.com/agext/levenshtein
 # github.com/apparentlymart/go-cidr v1.0.1
@@ -209,6 +207,8 @@ github.com/posener/complete
 github.com/posener/complete/cmd
 github.com/posener/complete/cmd/install
 github.com/posener/complete/match
+# github.com/sirupsen/logrus v1.4.2
+github.com/sirupsen/logrus
 # github.com/spf13/afero v1.2.2
 github.com/spf13/afero
 github.com/spf13/afero/mem
@@ -244,7 +244,7 @@ github.com/vmware/govmomi/vim25/progress
 github.com/vmware/govmomi/vim25/soap
 github.com/vmware/govmomi/vim25/types
 github.com/vmware/govmomi/vim25/xml
-# github.com/vmware/vic v1.5.4
+# github.com/vmware/vic v1.5.4 => github.com/LorbusChris/vic v1.5.5-0.20200120002717-4f75eaa93104
 github.com/vmware/vic/pkg/vsphere/tags
 # github.com/zclconf/go-cty v1.1.0
 github.com/zclconf/go-cty/cty
@@ -291,7 +291,6 @@ golang.org/x/crypto/openpgp/packet
 golang.org/x/crypto/openpgp/s2k
 golang.org/x/crypto/poly1305
 golang.org/x/crypto/ssh
-golang.org/x/crypto/ssh/terminal
 # golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
@@ -310,7 +309,6 @@ golang.org/x/oauth2/jwt
 # golang.org/x/sys v0.0.0-20190624142023-c5567b49c5d0
 golang.org/x/sys/cpu
 golang.org/x/sys/unix
-golang.org/x/sys/windows
 # golang.org/x/text v0.3.2
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
